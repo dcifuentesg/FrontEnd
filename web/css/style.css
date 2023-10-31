@@ -344,6 +344,7 @@ button {
 
 .projectimg {
     width: 90px;
+    height: 90px;
     transition: .3s;
 }
 
@@ -355,6 +356,7 @@ button {
 .projectsubtitle {
     font-size: .75rem;
     margin-bottom: .5rem;
+    padding: 5px;
 }
 
 .projecttitle,
@@ -943,7 +945,7 @@ button {
     }
     .projectimg {
         width: 110px;
-
+        height: 110px;
     }
 
     .projecttitle {
