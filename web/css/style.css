@@ -738,16 +738,16 @@ button {
         row-gap: 1rem;
     }
     */
-    .categorycontainer, 
-    .projectcontainer {
+    .categorycontainer{
         grid-template-columns: .8fr;
         justify-content: center;
     }
     
+    
 }
 
 
-@media (min-width: 576px) {
+@media (min-width: 800px) {
     /* .aboutcontainer {
         grid-template-columns: .8fr;
         justify-content: center;
@@ -761,7 +761,6 @@ button {
     .contestsld {
         padding: 0 3rem;
     } */
-
 }
 
 @media (min-width: 767px) {
@@ -816,7 +815,7 @@ button {
         width: 250px;
     } */
     .projectcontainer {
-        grid-template-columns: repeat(3,200px);
+        grid-template-columns: repeat(3,220px);
         justify-content: center;
         gap: 2rem;
     }

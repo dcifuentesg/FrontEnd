@@ -114,8 +114,8 @@ document.getElementById('linkedinAlejandro').addEventListener('click', function(
 });
 
 //projects links
-document.getElementById('prueba').addEventListener('click', function() {
-    window.location.href = 'https://bit.ly/3P7MqJu'; 
+document.getElementById('planetas').addEventListener('click', function() {
+    window.location.href = 'https://www.kaggle.com/code/crescendolls/planetsprediction'; 
 });
 
 //contest links
