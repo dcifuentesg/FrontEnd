@@ -348,8 +348,7 @@ button {
     transition: .3s;
 }
 
-.projectsubtitle,
-.projectprice {
+.projectsubtitle{
     display: block;
 }
 
@@ -359,8 +358,7 @@ button {
     padding: 5px;
 }
 
-.projecttitle,
-.projectprice {
+.projecttitle{
     color: #fff;
     font-weight: 500;
     font-size: .938rem;

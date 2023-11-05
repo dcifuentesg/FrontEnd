@@ -118,10 +118,13 @@ document.getElementById('planetas').addEventListener('click', function() {
     window.location.href = 'https://www.kaggle.com/code/crescendolls/planetsprediction'; 
 });
 
-document.getElementById('planetas').addEventListener('click', function() {
+document.getElementById('dogCat').addEventListener('click', function() {
     window.location.href = 'https://www.kaggle.com/code/crescendolls/dogsvscats'; 
 });
 
+document.getElementById('cifar').addEventListener('click', function() {
+    window.location.href = 'https://www.kaggle.com/code/crescendolls/cifar-clasificacion'; 
+});
 //contest links
 document.getElementById('bancolombia').addEventListener('click', function() {
     window.location.href = 'https://bit.ly/3P7MqJu'; 
