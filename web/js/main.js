@@ -96,14 +96,19 @@ const sr = ScrollReveal({
 
 sr.reveal(`.home-swiper, .contest-swiper, .about-swiper, .projectcontent`)
 sr.reveal(` .footercontent`, {interval: 100})
-// sr.reveal(`.aboutdata, .discountimg`, {origin: 'left'})
-// sr.reveal(`.aboutimg, .discountdata`, {origin: 'left'})
 
 //about links
+document.getElementById('linkedinDuvan').addEventListener('click', function() {
+    window.location.href = 'https://www.linkedin.com/in/duvan-sepulveda-0a60b4242/'; 
+});
+
+document.getElementById('linkedinAcevedo').addEventListener('click', function() {
+    window.location.href = 'https://www.linkedin.com/in/andres-santiago-acevedo-mancera-3873b8232/'; 
+});
+
 document.getElementById('linkedinAngel').addEventListener('click', function() {
     window.location.href = 'https://www.linkedin.com/in/afmartinezf/'; 
 });
-
 
 document.getElementById('linkedinCarlos').addEventListener('click', function() {
     window.location.href = 'https://www.linkedin.com/in/carlos-alberto-cort%C3%A9s-ram%C3%ADrez-89a47b1bb'; 
