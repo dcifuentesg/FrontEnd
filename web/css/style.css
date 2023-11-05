@@ -431,7 +431,7 @@ button {
     margin-bottom: .5rem;
     transition: .3s;
     margin-top: 10px;
-    border-radius: 15px;
+    border-radius: 50%;
 }
 
 .contestcontent {
