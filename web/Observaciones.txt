@@ -1,0 +1,3 @@
+La sección About y Contest, son sliders
+Todos los botones funcionan
+En el footer, en la sección Team, los nombres llevan al linkedin. En la sección Networking, Github lleva al github del grupo de estudio
