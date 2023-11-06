@@ -1,0 +1,96 @@
+
+#P4,
+#P5,
+#P6,
+#P7,
+#P8{
+    text-align: center;
+}
+#P4 .P4azul{
+    color:blue;
+}
+#P4 .P4rojo{
+    color: red;
+}
+
+#P5 .txtP5{
+    text-align: justify;
+    display: inline-table;
+}
+#P5 .P5-1{
+    color: green;
+    text-decoration: underline;
+}
+#P5 .P5-2{
+    color: red;
+    font-weight: bolder;
+}
+#P5 .P5-3{
+    text-decoration: underline overline;
+}
+#P5 .P5-4{
+    font-weight: bolder;
+    font-size:x-large;
+}
+#P5 .P5-5{
+    font-weight: bold;
+    color: blue;
+}
+#P5 .P5-6{
+    font-weight: bold;
+    text-decoration: underline;
+    color: red;
+}
+
+
+#P6 .P6-1{
+    color: yellow;
+    font-weight: bold;
+    font-size: large;
+}
+#P6 .P6-2{
+    color: blueviolet;
+    font-weight: bold;
+}
+
+#P7 ul{
+    display: inline-flex;
+}
+#P7 nav{
+    background-color: crimson;
+    display: inline;
+    padding: 15px;  
+}
+#P7 li{
+    padding: 15px 10px;
+    list-style: none;
+    
+}
+#P7 li:hover{
+    background-color: blue;
+}
+#P7 .navTxt{
+    color: white;
+}
+
+#P8 table{
+    background-color: yellow;
+    
+    padding: 0px;
+    display: inline-block;
+}
+#P8 table th::first-letter{
+    font-weight: bold;
+}
+#P8 table thead{
+    color: red;
+    font-style: italic;
+}
+#P8 table td{
+    padding: 0px;
+    border: 1px dotted black;
+}
+#P8 table th{
+    font-style: italic;
+    border: 1px dotted black;
+}
